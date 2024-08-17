@@ -1,0 +1,29 @@
+.text-purple {
+  color: #6600bf !important;  
+}
+
+/* 
+ body {
+  background-color: #262626;
+  height: 100vh;
+}  */
+
+.custom-button {
+  background-color: #9321f6 !important;
+  color: #fff;
+  width: 10rem;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.custom-button:hover {
+  background-color: #561291 !important;
+  color: #cbcbcb;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
