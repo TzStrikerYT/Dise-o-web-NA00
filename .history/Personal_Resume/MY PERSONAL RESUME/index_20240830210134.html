@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Metadatos-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Victor Ron" />
+    <meta name="description" content="Victor Ron's Portfolio" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, Javascript, Bootstrap, Coding, "
+    />
+    <!--Page name-->
+    <title>Victor Ron | FrontEnd Developer</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="Images/icon.png" />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="estilos.css/style.css" />
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbar-toggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#"
+            ><img src="Images/icon.png" width="50" alt="Page logo"
+          /></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#profile"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactme">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Profile-->
+    <section
+      class="profile container-fluid d-flex flex-wrap justify-content-center"
+      id="profile"
+    >
+      <div
+        class="profile_pic col-lg-6 col-md-12 p-5 d-flex flex-column align-items-center justify-content-center"
+      >
+        <img
+          src="Images/profile.jpg"
+          width="300px"
+          height="300px"
+          alt="Victor_Ron_profile_pic"
+          class="image-circular"
+        />
+        <h1>Victor Ron</h1>
+      </div>
+
+      <div
+        class="col-lg-6 col-md-12 p-5 d-flex flex-column align-items-center justify-content-center"
+      >
+        <h2>Hello! I'm Victor Ron.</h2>
+
+        <h6>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          maxime voluptates harum, quidem omnis eos odit sit sapiente eum illo
+          molestias, qui asperiores facere consequatur perferendis sint
+          recusandae, quos iusto.
+        </h6>
+        <div class="see_portfolio">
+          <a href="#portfolio" class="btn btn-outline-success">See Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Experience-->
+    <section
+      class="experience container-fluid d-flex flex-wrap justify-content-center"
+      id="portfolio"
+    >
+      <div class="card d-flex p-4 shadow border-0 rounded-5 shadow">
+        <img
+          src="Images/project_management.webp"
+          width="100px"
+          height="200px"
+          class="card-img-top"
+          alt="Project Management"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Project Management</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel atque
+            eaque, assumenda maxime vitae aliquam eos rerum! Atque sit ullam
+            facere similique aliquid deserunt ab nisi harum dolore. Ab,
+            adipisci. lo
+          </p>
+        </div>
+      </div>
+
+      <div class="card d-flex p-4 shadow border-0 rounded-5 shadow">
+        <img
+          src="Images/2full-stack_engineering.png"
+          width="100px"
+          height="200px"
+          class="card-img-top"
+          alt="Full-stack engineering"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Full-stack engineering</h5>
+          <p class="card-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
+            voluptates accusamus officia perspiciatis laborum ab eveniet
+            suscipit veritatis expedita, quisquam, quibusdam non ut dignissimos
+            esse soluta sit magnam nihil molestias..
+          </p>
+        </div>
+      </div>
+
+      <div class="card d-flex p-4 shadow border-0 rounded-5 shadow">
+        <img
+          src="Images/web.jpg"
+          width="100px"
+          height="200px"
+          class="card-img-top"
+          alt="Web Full-stack Specialized"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Web Full-stack Specialized</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            eligendi officiis pariatur mollitia tempora molestias culpa illo!
+            Quibusdam porro aliquid tempore totam. Quasi eum debitis porro
+            cupiditate alias, inventore blanditiis..
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills-->
+    <section class="flex-wrap container-fluid d-flex" id="resume">
+      <div
+        class="col-lg-6 col-md-12 p-4 flex-column justify-content-center align-items-center"
+      >
+        <h2>What I've Used</h2>
+        <h4>Some of the technologies I've used recently include:</h4>
+
+        <div>
+          <img
+            class="program"
+            src="Images/html5.png"
+            width="100px"
+            height="100px"
+            alt="HTML"
+          />
+          <img
+            class="program"
+            src="Images/css3.jpg"
+            width="100px"
+            height="100px"
+            alt="CSS"
+          />
+          <img
+            class="program"
+            src="Images/js.png"
+            width="100px"
+            height="100px"
+            alt="Javascript"
+          />
+          <img
+            class="program"
+            src="Images/python.png"
+            width="100px"
+            height="100px"
+            alt="Python"
+          />
+        </div>
+      </div>
+
+      <div id="document d-flex flex-wrap container-fluid">
+        <div
+          class="skills col-lg-6 col-md-12 d-flex flex-column align-items-center justify-content-center"
+        >
+          <header>
+            <h3>You can easily validate my skills!</h3>
+            <h5>
+              Some of my personal projects and my resume are displayed here:
+            </h5>
+          </header>
+
+          <div
+            class="contenedor col-lg-6 col-md-12 d-flex flex-column align-items-center justify-content-center"
+          >
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1oMowbLkqGathWx8qOGsLN6HWrM6uQrKW/view?usp=drive_link"
+              class="btn btn-primary"
+              >See Victor's Resume</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/Vicman0404"
+              class="btn btn-primary"
+              >See Victor's GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact information-->
+    <section class="contact" id="contactme">
+      <header>
+        <h2>Let's make something together!</h2>
+        <h5>Find me on ...</h5>
+      </header>
+      <div>
+        <a target="_blank" href="https://wa.me/573022454092"
+          ><img
+            class="link-animation m-3 rounded-circle"
+            src="Images/whp.png"
+            alt="What'sApp"
+        /></a>
+
+        <a target="_blank" href="tel:+57 3022454092"
+          ><img
+            class="link-animation m-3 rounded-circle"
+            src="Images/phone.png"
+            alt="Victor's Phone Number"
+        /></a>
+        <a target="_blank" href="mailto: victormanuelron@gmail.com"
+          ><img
+            class="bg-white link-animation m-3 rounded-circle"
+            src="Images/gmail.png"
+            alt="Victor's Email"
+        /></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/victor-manuel-ron-867450281"
+          ><img
+            class="link-animation m-3 rounded-circle"
+            src="Images/linkedin.jpg"
+            alt="Victor's Linkedin Profile"
+        /></a>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
